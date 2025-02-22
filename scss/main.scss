@@ -1,0 +1,11 @@
+@import 'variables';
+@import 'components';
+
+// Additional global styles
+body {
+  background-color: $light-blue;
+}
+
+.container {
+  margin-top: $spacing-lg;
+}

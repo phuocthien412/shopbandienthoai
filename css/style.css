@@ -1,0 +1,29 @@
+.card {
+  background-color: #e3f2fd;
+  border-color: rgb(125.1971830986, 179.2816901408, 240.8028169014);
+}
+.card-header {
+  background-color: #2196f3;
+  color: #ffffff;
+  border-bottom: 2px solid rgb(11.5384615385, 124.0384615385, 213.4615384615);
+}
+
+.form-label {
+  color: #1565c0;
+}
+
+.banner {
+  background: linear-gradient(to right, #1565c0, #2196f3);
+  color: #ffffff;
+  padding: 2rem 0;
+}
+
+body {
+  background-color: #e3f2fd;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,23 @@
+// Card styles
+.card {
+  background-color: $light-blue;
+  border-color: lighten($primary-color, 30%);
+  
+  &-header {
+    background-color: $secondary-color;
+    color: $white;
+    border-bottom: 2px solid darken($secondary-color, 10%);
+  }
+}
+
+// Form styles
+.form-label {
+  color: $primary-color;
+}
+
+// Banner styles
+.banner {
+  background: linear-gradient(to right, $primary-color, $secondary-color);
+  color: $white;
+  padding: $spacing-lg 0;
+}

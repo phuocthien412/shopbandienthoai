@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .banner {
+            background: linear-gradient(to right, #1565C0, #1976D2);
+            color: white;
+            padding: 2rem 0;
+        }
+        .nav-link {
+            color: #1565C0;
+        }
+        .card-product:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+        }
+        footer {
+            background-color: #1565C0;
+            color: white;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        footer a:hover {
+            color: #90CAF9;
+        }
+        .sidebar {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            position: sticky;
+            top: 20px;
+        }
+        .ad-banner {
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .ad-banner img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Banner -->
+    <div class="banner">
+        <div class="container">
+            <h1 class="text-center">Shop Online</h1>
+            <p class="text-center mb-0">Chất lượng tạo nên thương hiệu</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#">Trang chủ</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Sản phẩm</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Khuyến mãi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Liên hệ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Products Section with Sidebar -->
+    <div class="container mt-4">
+        <div class="row">
+            <!-- Main Content -->
+            <div class="col-md-9">
+                <h2 class="text-center mb-4">Sản phẩm nổi bật</h2>
+                <div class="row">
+                    <!-- Column 1 -->
+                    <div class="col-md-4">
+                        <div class="card card-product mb-4">
+                            <img src="images/dt.png" class="card-img-top" alt="Product 1">
+                            <div class="card-body">
+                                <h5 class="card-title">Sản phẩm 1</h5>
+                                <p class="card-text">Mô tả ngắn về sản phẩm 1</p>
+                                <p class="card-text"><strong>Giá: 1.000.000đ</strong></p>
+                                <a href="#" class="btn btn-primary">Mua ngay</a>
+                            </div>
+                        </div>
+                        <div class="card card-product mb-4">
+                            <img src="images/dt.png" class="card-img-top" alt="Product 4">
+                            <div class="card-body">
+                                <h5 class="card-title">Sản phẩm 4</h5>
+                                <p class="card-text">Mô tả ngắn về sản phẩm 4</p>
+                                <p class="card-text"><strong>Giá: 1.200.000đ</strong></p>
+                                <a href="#" class="btn btn-primary">Mua ngay</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Column 2 -->
+                    <div class="col-md-4">
+                        <div class="card card-product mb-4">
+                            <img src="images/dt.png" class="card-img-top" alt="Product 2">
+                            <div class="card-body">
+                                <h5 class="card-title">Sản phẩm 2</h5>
+                                <p class="card-text">Mô tả ngắn về sản phẩm 2</p>
+                                <p class="card-text"><strong>Giá: 1.500.000đ</strong></p>
+                                <a href="#" class="btn btn-primary">Mua ngay</a>
+                            </div>
+                        </div>
+                        <div class="card card-product mb-4">
+                            <img src="images/dt.png" class="card-img-top" alt="Product 5">
+                            <div class="card-body">
+                                <h5 class="card-title">Sản phẩm 5</h5>
+                                <p class="card-text">Mô tả ngắn về sản phẩm 5</p>
+                                <p class="card-text"><strong>Giá: 900.000đ</strong></p>
+                                <a href="#" class="btn btn-primary">Mua ngay</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Column 3 -->
+                    <div class="col-md-4">
+                        <div class="card card-product mb-4">
+                            <img src="images/dt.png" class="card-img-top" alt="Product 3">
+                            <div class="card-body">
+                                <h5 class="card-title">Sản phẩm 3</h5>
+                                <p class="card-text">Mô tả ngắn về sản phẩm 3</p>
+                                <p class="card-text"><strong>Giá: 800.000đ</strong></p>
+                                <a href="#" class="btn btn-primary">Mua ngay</a>
+                            </div>
+                        </div>
+                        <div class="card card-product mb-4">
+                            <img src="images/dt.png" class="card-img-top" alt="Product 6">
+                            <div class="card-body">
+                                <h5 class="card-title">Sản phẩm 6</h5>
+                                <p class="card-text">Mô tả ngắn về sản phẩm 6</p>
+                                <p class="card-text"><strong>Giá: 2.000.000đ</strong></p>
+                                <a href="#" class="btn btn-primary">Mua ngay</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Sidebar -->
+            <div class="col-md-3">
+                <div class="sidebar">
+                    <h4 class="mb-3">Quảng cáo</h4>
+                    <div class="ad-banner">
+                        <img src="images/banner1.jpg" alt="Quảng cáo 1">
+                    </div>
+                    <div class="ad-banner">
+                        <img src="images/banner1.jpg" alt="Quảng cáo 2">
+                    </div>
+                    <div class="ad-banner">
+                        <img src="images/banner1.jpg" alt="Quảng cáo 3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <!-- Footer Column 1 -->
+                <div class="col-md-6">
+                    <h4>Liên kết nhanh</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Về chúng tôi</a></li>
+                        <li><a href="#">Chính sách bảo hành</a></li>
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                    </ul>
+                </div>
+                <!-- Footer Column 2 -->
+                <div class="col-md-6">
+                    <h4>Thông tin liên hệ</h4>
+                    <ul class="list-unstyled">
+                        <li>Địa chỉ: 123 Đường ABC, Quận 1, TP.HCM</li>
+                        <li>Điện thoại: (028) 1234 5678</li>
+                        <li>Email: contact@example.com</li>
+                        <li>Hotline: 1900 1234</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
